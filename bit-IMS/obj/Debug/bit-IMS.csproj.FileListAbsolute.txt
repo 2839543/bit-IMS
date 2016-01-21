@@ -1,0 +1,11 @@
+d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\bin\Debug\bit-IMS.exe.config
+d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\bin\Debug\bit-IMS.exe
+d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\bin\Debug\bit-IMS.pdb
+d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit-IMS.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit_IMS.Form1.resources
+d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit_IMS.Properties.Resources.resources
+d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit-IMS.csproj.GenerateResource.Cache
+d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit-IMS.exe
+d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit-IMS.pdb
+d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit_IMS.teacher.resources
+d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit_IMS.about.resources
