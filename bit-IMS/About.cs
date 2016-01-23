@@ -8,6 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+/********************************************************************************
+
+** 作者： haoxiaoqi
+
+** 创始时间：2016-1-21 
+
+** 描述：
+
+**  教师数据处理，…
+
+*********************************************************************************/
 namespace bit_IMS
 {
     public partial class About : Form
@@ -15,6 +27,11 @@ namespace bit_IMS
         public About()
         {
             InitializeComponent();
+        }
+
+        private void About_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

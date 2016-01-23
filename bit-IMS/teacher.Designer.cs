@@ -29,10 +29,18 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tbx_zhicheng = new System.Windows.Forms.TextBox();
+            this.tbx_tel = new System.Windows.Forms.TextBox();
+            this.btn_close = new System.Windows.Forms.Button();
+            this.btn_reset = new System.Windows.Forms.Button();
+            this.btn_save = new System.Windows.Forms.Button();
+            this.tbx_address = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.cbx_xueli = new System.Windows.Forms.ComboBox();
+            this.cbx_minzu = new System.Windows.Forms.ComboBox();
             this.cbx_zzmm = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.tbx_xuexiao = new System.Windows.Forms.TextBox();
+            this.dt_birth = new System.Windows.Forms.DateTimePicker();
             this.rdb_male = new System.Windows.Forms.RadioButton();
             this.rdb_female = new System.Windows.Forms.RadioButton();
             this.label9 = new System.Windows.Forms.Label();
@@ -44,32 +52,24 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.tbx_name = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.tbx_zhicheng);
+            this.groupBox1.Controls.Add(this.tbx_tel);
+            this.groupBox1.Controls.Add(this.btn_close);
+            this.groupBox1.Controls.Add(this.btn_reset);
+            this.groupBox1.Controls.Add(this.btn_save);
+            this.groupBox1.Controls.Add(this.tbx_address);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.cbx_xueli);
+            this.groupBox1.Controls.Add(this.cbx_minzu);
             this.groupBox1.Controls.Add(this.cbx_zzmm);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.tbx_xuexiao);
+            this.groupBox1.Controls.Add(this.dt_birth);
             this.groupBox1.Controls.Add(this.rdb_male);
             this.groupBox1.Controls.Add(this.rdb_female);
             this.groupBox1.Controls.Add(this.label9);
@@ -81,7 +81,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.tbx_name);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
@@ -89,6 +89,57 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "教师基本信息";
+            // 
+            // tbx_zhicheng
+            // 
+            this.tbx_zhicheng.Location = new System.Drawing.Point(359, 116);
+            this.tbx_zhicheng.Name = "tbx_zhicheng";
+            this.tbx_zhicheng.Size = new System.Drawing.Size(138, 21);
+            this.tbx_zhicheng.TabIndex = 14;
+            // 
+            // tbx_tel
+            // 
+            this.tbx_tel.Location = new System.Drawing.Point(359, 171);
+            this.tbx_tel.Name = "tbx_tel";
+            this.tbx_tel.Size = new System.Drawing.Size(138, 21);
+            this.tbx_tel.TabIndex = 14;
+            // 
+            // btn_close
+            // 
+            this.btn_close.Location = new System.Drawing.Point(330, 374);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(75, 23);
+            this.btn_close.TabIndex = 13;
+            this.btn_close.Text = "关闭";
+            this.btn_close.UseVisualStyleBackColor = true;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            // 
+            // btn_reset
+            // 
+            this.btn_reset.Location = new System.Drawing.Point(232, 374);
+            this.btn_reset.Name = "btn_reset";
+            this.btn_reset.Size = new System.Drawing.Size(75, 23);
+            this.btn_reset.TabIndex = 13;
+            this.btn_reset.Text = "重置";
+            this.btn_reset.UseVisualStyleBackColor = true;
+            this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
+            // 
+            // btn_save
+            // 
+            this.btn_save.Location = new System.Drawing.Point(117, 374);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.Size = new System.Drawing.Size(75, 23);
+            this.btn_save.TabIndex = 13;
+            this.btn_save.Text = "保存";
+            this.btn_save.UseVisualStyleBackColor = true;
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
+            // 
+            // tbx_address
+            // 
+            this.tbx_address.Location = new System.Drawing.Point(128, 227);
+            this.tbx_address.Name = "tbx_address";
+            this.tbx_address.Size = new System.Drawing.Size(369, 21);
+            this.tbx_address.TabIndex = 12;
             // 
             // label10
             // 
@@ -99,9 +150,97 @@
             this.label10.TabIndex = 11;
             this.label10.Text = "学校";
             // 
+            // cbx_xueli
+            // 
+            this.cbx_xueli.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbx_xueli.FormattingEnabled = true;
+            this.cbx_xueli.Items.AddRange(new object[] {
+            "小学",
+            "初中",
+            "高中",
+            "中专",
+            "高职",
+            "专科",
+            "本科",
+            "硕士研究生",
+            "博士研究生",
+            "其它"});
+            this.cbx_xueli.Location = new System.Drawing.Point(455, 66);
+            this.cbx_xueli.Name = "cbx_xueli";
+            this.cbx_xueli.Size = new System.Drawing.Size(84, 20);
+            this.cbx_xueli.TabIndex = 10;
+            // 
+            // cbx_minzu
+            // 
+            this.cbx_minzu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbx_minzu.FormattingEnabled = true;
+            this.cbx_minzu.Items.AddRange(new object[] {
+            "aaa",
+            "汉族",
+            "壮族",
+            "满族",
+            "回族",
+            "苗族",
+            "维吾尔族",
+            "土家族",
+            "彝族  ",
+            "蒙古族  ",
+            "藏族  ",
+            "布依族  ",
+            "侗族  ",
+            "瑶族  ",
+            "朝鲜族  ",
+            "白族  ",
+            "哈尼族  ",
+            "哈萨克族  ",
+            "黎族  ",
+            "傣族  ",
+            "畲族  ",
+            "傈僳族  ",
+            "仡佬族  ",
+            "东乡族  ",
+            "高山族  ",
+            "拉祜族  ",
+            "水族  ",
+            "佤族  ",
+            "纳西族  ",
+            "羌族  ",
+            "土族  ",
+            "仫佬族  ",
+            "锡伯族  ",
+            "柯尔克孜族  ",
+            "达斡尔族  ",
+            "景颇族  ",
+            "毛南族  ",
+            "撒拉族  ",
+            "布朗族  ",
+            "塔吉克族  ",
+            "阿昌族  ",
+            "普米族  ",
+            "鄂温克族  ",
+            "怒族  ",
+            "京族  ",
+            "基诺族  ",
+            "德昂族  ",
+            "保安族  ",
+            "俄罗斯族  ",
+            "裕固族  ",
+            "乌兹别克族  ",
+            "门巴族  ",
+            "鄂伦春族  ",
+            "独龙族  ",
+            "塔塔尔族  ",
+            "赫哲族  ",
+            "珞巴族"});
+            this.cbx_minzu.Location = new System.Drawing.Point(321, 66);
+            this.cbx_minzu.Name = "cbx_minzu";
+            this.cbx_minzu.Size = new System.Drawing.Size(84, 20);
+            this.cbx_minzu.TabIndex = 10;
+            this.cbx_minzu.SelectedIndexChanged += new System.EventHandler(this.cbx_minzu_SelectedIndexChanged);
+            // 
             // cbx_zzmm
             // 
-            this.cbx_zzmm.Enabled = false;
+            this.cbx_zzmm.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbx_zzmm.FormattingEnabled = true;
             this.cbx_zzmm.Items.AddRange(new object[] {
             "中共党员",
@@ -116,26 +255,28 @@
             "九三学社社员",
             "台盟盟员",
             "无党派民主人士",
-            "群众（现称普通公民）"});
+            "群众（现称普通公民）",
+            "其它"});
             this.cbx_zzmm.Location = new System.Drawing.Point(72, 109);
             this.cbx_zzmm.Name = "cbx_zzmm";
             this.cbx_zzmm.Size = new System.Drawing.Size(121, 20);
             this.cbx_zzmm.TabIndex = 10;
             // 
-            // textBox2
+            // tbx_xuexiao
             // 
-            this.textBox2.Location = new System.Drawing.Point(107, 177);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 21);
-            this.textBox2.TabIndex = 9;
-            this.textBox2.Text = "北京理工大学";
+            this.tbx_xuexiao.Location = new System.Drawing.Point(107, 177);
+            this.tbx_xuexiao.Name = "tbx_xuexiao";
+            this.tbx_xuexiao.ReadOnly = true;
+            this.tbx_xuexiao.Size = new System.Drawing.Size(100, 21);
+            this.tbx_xuexiao.TabIndex = 9;
+            this.tbx_xuexiao.Text = "北京理工大学";
             // 
-            // dateTimePicker1
+            // dt_birth
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(72, 56);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(98, 21);
-            this.dateTimePicker1.TabIndex = 8;
+            this.dt_birth.Location = new System.Drawing.Point(72, 56);
+            this.dt_birth.Name = "dt_birth";
+            this.dt_birth.Size = new System.Drawing.Size(98, 21);
+            this.dt_birth.TabIndex = 8;
             // 
             // rdb_male
             // 
@@ -240,133 +381,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "姓名";
             // 
-            // textBox1
+            // tbx_name
             // 
-            this.textBox1.Location = new System.Drawing.Point(56, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 21);
-            this.textBox1.TabIndex = 0;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(128, 227);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(369, 21);
-            this.textBox3.TabIndex = 12;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(117, 374);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "保存";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(330, 374);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "关闭";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(232, 374);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "重置";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(359, 171);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(138, 21);
-            this.textBox4.TabIndex = 14;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(359, 116);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(138, 21);
-            this.textBox5.TabIndex = 14;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(455, 63);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(58, 21);
-            this.textBox6.TabIndex = 14;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Enabled = false;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "汉族  ",
-            "壮族  ",
-            "满族  ",
-            "回族  ",
-            "苗族  ",
-            "维吾尔族  ",
-            "土家族  ",
-            "彝族  ",
-            "蒙古族  ",
-            "藏族  ",
-            "布依族  ",
-            "侗族  ",
-            "瑶族  ",
-            "朝鲜族  ",
-            "白族  ",
-            "哈尼族  ",
-            "哈萨克族  ",
-            "黎族  ",
-            "傣族  ",
-            "畲族  ",
-            "傈僳族  ",
-            "仡佬族  ",
-            "东乡族  ",
-            "高山族  ",
-            "拉祜族  ",
-            "水族  ",
-            "佤族  ",
-            "纳西族  ",
-            "羌族  ",
-            "土族  ",
-            "仫佬族  ",
-            "锡伯族  ",
-            "柯尔克孜族  ",
-            "达斡尔族  ",
-            "景颇族  ",
-            "毛南族  ",
-            "撒拉族  ",
-            "布朗族  ",
-            "塔吉克族  ",
-            "阿昌族  ",
-            "普米族  ",
-            "鄂温克族  ",
-            "怒族  ",
-            "京族  ",
-            "基诺族  ",
-            "德昂族  ",
-            "保安族  ",
-            "俄罗斯族  ",
-            "裕固族  ",
-            "乌兹别克族  ",
-            "门巴族  ",
-            "鄂伦春族  ",
-            "独龙族  ",
-            "塔塔尔族  ",
-            "赫哲族  ",
-            "珞巴族"});
-            this.comboBox1.Location = new System.Drawing.Point(321, 66);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(84, 20);
-            this.comboBox1.TabIndex = 10;
+            this.tbx_name.Location = new System.Drawing.Point(56, 21);
+            this.tbx_name.Name = "tbx_name";
+            this.tbx_name.Size = new System.Drawing.Size(100, 21);
+            this.tbx_name.TabIndex = 0;
             // 
             // teacher
             // 
@@ -376,6 +396,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "teacher";
             this.Text = "教师信息";
+            this.Load += new System.EventHandler(this.teacher_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -396,18 +417,18 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbx_name;
         private System.Windows.Forms.ComboBox cbx_zzmm;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox tbx_xuexiao;
+        private System.Windows.Forms.DateTimePicker dt_birth;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox tbx_address;
+        private System.Windows.Forms.TextBox tbx_zhicheng;
+        private System.Windows.Forms.TextBox tbx_tel;
+        private System.Windows.Forms.Button btn_close;
+        private System.Windows.Forms.Button btn_reset;
+        private System.Windows.Forms.Button btn_save;
+        private System.Windows.Forms.ComboBox cbx_minzu;
+        private System.Windows.Forms.ComboBox cbx_xueli;
     }
 }

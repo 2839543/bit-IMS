@@ -9,3 +9,5 @@ d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit-IMS.exe
 d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit-IMS.pdb
 d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit_IMS.teacher.resources
 d:\documents\visual studio 2012\Projects\bit-IMS\bit-IMS\obj\Debug\bit_IMS.about.resources
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\bin\Debug\System.Data.SQLite.dll
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\bin\Debug\System.Data.SQLite.pdb
