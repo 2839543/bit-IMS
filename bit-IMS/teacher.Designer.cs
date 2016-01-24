@@ -92,14 +92,14 @@
             // 
             // tbx_zhicheng
             // 
-            this.tbx_zhicheng.Location = new System.Drawing.Point(359, 116);
+            this.tbx_zhicheng.Location = new System.Drawing.Point(330, 148);
             this.tbx_zhicheng.Name = "tbx_zhicheng";
             this.tbx_zhicheng.Size = new System.Drawing.Size(138, 21);
             this.tbx_zhicheng.TabIndex = 14;
             // 
             // tbx_tel
             // 
-            this.tbx_tel.Location = new System.Drawing.Point(359, 171);
+            this.tbx_tel.Location = new System.Drawing.Point(330, 200);
             this.tbx_tel.Name = "tbx_tel";
             this.tbx_tel.Size = new System.Drawing.Size(138, 21);
             this.tbx_tel.TabIndex = 14;
@@ -136,19 +136,19 @@
             // 
             // tbx_address
             // 
-            this.tbx_address.Location = new System.Drawing.Point(128, 227);
+            this.tbx_address.Location = new System.Drawing.Point(72, 246);
             this.tbx_address.Name = "tbx_address";
-            this.tbx_address.Size = new System.Drawing.Size(369, 21);
+            this.tbx_address.Size = new System.Drawing.Size(539, 21);
             this.tbx_address.TabIndex = 12;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(35, 180);
+            this.label10.Location = new System.Drawing.Point(13, 203);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(29, 12);
+            this.label10.Size = new System.Drawing.Size(53, 12);
             this.label10.TabIndex = 11;
-            this.label10.Text = "学校";
+            this.label10.Text = "学    校";
             // 
             // cbx_xueli
             // 
@@ -165,7 +165,7 @@
             "硕士研究生",
             "博士研究生",
             "其它"});
-            this.cbx_xueli.Location = new System.Drawing.Point(455, 66);
+            this.cbx_xueli.Location = new System.Drawing.Point(527, 89);
             this.cbx_xueli.Name = "cbx_xueli";
             this.cbx_xueli.Size = new System.Drawing.Size(84, 20);
             this.cbx_xueli.TabIndex = 10;
@@ -232,7 +232,7 @@
             "塔塔尔族  ",
             "赫哲族  ",
             "珞巴族"});
-            this.cbx_minzu.Location = new System.Drawing.Point(321, 66);
+            this.cbx_minzu.Location = new System.Drawing.Point(330, 89);
             this.cbx_minzu.Name = "cbx_minzu";
             this.cbx_minzu.Size = new System.Drawing.Size(84, 20);
             this.cbx_minzu.TabIndex = 10;
@@ -257,14 +257,14 @@
             "无党派民主人士",
             "群众（现称普通公民）",
             "其它"});
-            this.cbx_zzmm.Location = new System.Drawing.Point(72, 109);
+            this.cbx_zzmm.Location = new System.Drawing.Point(72, 141);
             this.cbx_zzmm.Name = "cbx_zzmm";
-            this.cbx_zzmm.Size = new System.Drawing.Size(121, 20);
+            this.cbx_zzmm.Size = new System.Drawing.Size(98, 20);
             this.cbx_zzmm.TabIndex = 10;
             // 
             // tbx_xuexiao
             // 
-            this.tbx_xuexiao.Location = new System.Drawing.Point(107, 177);
+            this.tbx_xuexiao.Location = new System.Drawing.Point(72, 200);
             this.tbx_xuexiao.Name = "tbx_xuexiao";
             this.tbx_xuexiao.ReadOnly = true;
             this.tbx_xuexiao.Size = new System.Drawing.Size(100, 21);
@@ -273,7 +273,7 @@
             // 
             // dt_birth
             // 
-            this.dt_birth.Location = new System.Drawing.Point(72, 56);
+            this.dt_birth.Location = new System.Drawing.Point(72, 86);
             this.dt_birth.Name = "dt_birth";
             this.dt_birth.Size = new System.Drawing.Size(98, 21);
             this.dt_birth.TabIndex = 8;
@@ -281,7 +281,7 @@
             // rdb_male
             // 
             this.rdb_male.AutoSize = true;
-            this.rdb_male.Location = new System.Drawing.Point(392, 26);
+            this.rdb_male.Location = new System.Drawing.Point(381, 41);
             this.rdb_male.Name = "rdb_male";
             this.rdb_male.Size = new System.Drawing.Size(35, 16);
             this.rdb_male.TabIndex = 7;
@@ -292,7 +292,7 @@
             // rdb_female
             // 
             this.rdb_female.AutoSize = true;
-            this.rdb_female.Location = new System.Drawing.Point(351, 26);
+            this.rdb_female.Location = new System.Drawing.Point(332, 41);
             this.rdb_female.Name = "rdb_female";
             this.rdb_female.Size = new System.Drawing.Size(35, 16);
             this.rdb_female.TabIndex = 6;
@@ -303,16 +303,16 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(286, 116);
+            this.label9.Location = new System.Drawing.Point(260, 148);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(29, 12);
+            this.label9.Size = new System.Drawing.Size(53, 12);
             this.label9.TabIndex = 5;
-            this.label9.Text = "职称";
+            this.label9.Text = "职    称";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(420, 66);
+            this.label8.Location = new System.Drawing.Point(475, 93);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(29, 12);
             this.label8.TabIndex = 5;
@@ -321,7 +321,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(35, 236);
+            this.label7.Location = new System.Drawing.Point(13, 249);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 12);
             this.label7.TabIndex = 5;
@@ -330,7 +330,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(289, 180);
+            this.label6.Location = new System.Drawing.Point(260, 199);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(53, 12);
             this.label6.TabIndex = 4;
@@ -339,7 +339,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 116);
+            this.label5.Location = new System.Drawing.Point(13, 148);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 12);
             this.label5.TabIndex = 3;
@@ -348,7 +348,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 66);
+            this.label4.Location = new System.Drawing.Point(13, 93);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 12);
             this.label4.TabIndex = 2;
@@ -357,35 +357,35 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(286, 69);
+            this.label3.Location = new System.Drawing.Point(260, 96);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 12);
+            this.label3.Size = new System.Drawing.Size(53, 12);
             this.label3.TabIndex = 1;
-            this.label3.Text = "民族";
+            this.label3.Text = "民    族";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(305, 24);
+            this.label2.Location = new System.Drawing.Point(260, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 12);
+            this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 1;
-            this.label2.Text = "性别";
+            this.label2.Text = "性    别";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 21);
+            this.label1.Location = new System.Drawing.Point(13, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 12);
+            this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 1;
-            this.label1.Text = "姓名";
+            this.label1.Text = "姓    名";
             // 
             // tbx_name
             // 
-            this.tbx_name.Location = new System.Drawing.Point(56, 21);
+            this.tbx_name.Location = new System.Drawing.Point(72, 38);
             this.tbx_name.Name = "tbx_name";
-            this.tbx_name.Size = new System.Drawing.Size(100, 21);
+            this.tbx_name.Size = new System.Drawing.Size(98, 21);
             this.tbx_name.TabIndex = 0;
             // 
             // teacher

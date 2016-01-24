@@ -16,7 +16,7 @@ namespace bit_IMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Bit_Form());
         }
     }
 }

@@ -1,0 +1,12 @@
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\bin\Release\bit-IMS.exe.config
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\bin\Release\bit-IMS.exe
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\bin\Release\bit-IMS.pdb
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\bin\Release\System.Data.SQLite.dll
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\bin\Release\System.Data.SQLite.pdb
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\obj\Release\bit_IMS.About.resources
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\obj\Release\bit_IMS.Bit_Form.resources
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\obj\Release\bit_IMS.Properties.Resources.resources
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\obj\Release\bit_IMS.teacher.resources
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\obj\Release\bit-IMS.csproj.GenerateResource.Cache
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\obj\Release\bit-IMS.exe
+d:\Documents\Visual Studio 2012\Projects\bit-IMS\bit-IMS\obj\Release\bit-IMS.pdb

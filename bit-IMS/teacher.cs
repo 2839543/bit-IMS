@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Common;
+using System.Data.SQLite; 
 
 
 /********************************************************************************
@@ -25,8 +27,16 @@ namespace bit_IMS
 {
     public partial class teacher : Form
     {
+        Bit_Form form1;
+
         public teacher()
+        { 
+            InitializeComponent();
+        }
+
+        public teacher(Bit_Form form)
         {
+            this.form1 = form;
             InitializeComponent();
         }
 
@@ -88,6 +98,7 @@ namespace bit_IMS
             {
                 MessageBox.Show("添加["+name+"]成功");
                 this.btn_reset_Click(null, null);
+                loadDataGridView();
             }
             else
             {
@@ -95,6 +106,29 @@ namespace bit_IMS
                 MessageBox.Show("保存[" + name + "]失败");
             }
 
+        }
+
+        private void loadDataGridView()
+        {
+
+            using (SQLiteConnection con = new SQLiteConnection(GlobalConf.DB_PATH))
+            {
+                con.Open();
+                string sqlStr = @"SELECT *
+                                    FROM teacher";
+                using (SQLiteCommand cmd = new SQLiteCommand(sqlStr, con))
+                {
+
+
+                    cmd.CommandType = CommandType.Text;
+                    SQLiteDataAdapter dbDataAdapter = new SQLiteDataAdapter(cmd);
+                    DataSet dataSet = new DataSet();
+
+                    dbDataAdapter.Fill(dataSet, "teacher");  
+                    this.form1.dataGridView1.DataSource = dataSet.Tables["teacher"];
+
+                }
+            }
         }
     }
 }

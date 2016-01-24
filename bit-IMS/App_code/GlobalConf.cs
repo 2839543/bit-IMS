@@ -10,7 +10,8 @@ public class GlobalConf
 {
 
     //public static readonly string DB_PATH = "Data Source = .\\db\\sqlite\\bit.db"; 
-    public static readonly string DB_PATH = "Data Source = D:/database/sqlite/bit.db";
+    //public static readonly string DB_PATH = "Data Source = D:/database/sqlite/bit.db";
+    public static readonly string DB_PATH = "Data Source = bit.db";
 
     public static bit_IMS.App_code.Teacher teacher; 
     
